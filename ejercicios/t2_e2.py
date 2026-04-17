@@ -1,3 +1,5 @@
+print("Tienda de Ropa")
+
 print("Precio camiseta: 10 euros")
 
 print("Precio sudadera: 20.5 euros")
