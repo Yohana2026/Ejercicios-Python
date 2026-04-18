@@ -10,5 +10,5 @@ descuento_porcentaje = float(input("Descuento en porcentaje: "))
 
 iva_porcentaje = float(input("IVA en porcentaje: "))
 
-def precio_total():
+
     
