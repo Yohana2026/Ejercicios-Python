@@ -1,16 +1,16 @@
 print ("Calculadora")
 
-num_1 = float(input("Introduzca un número: "))
+numA = float(input("Introduzca un número: "))
 
-num_2 = float(input("Introduzca otro numero: "))
+numB = float(input("Introduzca otro numero: "))
 
-suma = num_1 + num_2
+suma = numA + numB
 
-resta = num_1 - num_2
+resta = numA - numB
 
-multiplicacion = num_1 * num_2
+multiplicacion = numA * numB
 
-division = num_1 / num_2
+division = numA / numB
 
 print ("Suma", suma)
 

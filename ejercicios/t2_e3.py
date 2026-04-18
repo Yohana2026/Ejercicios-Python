@@ -1,18 +1,18 @@
 print("Frases")
 
-intro_frase = input("Introduzca una frase:")
+introFrase = input("Introduzca una frase:")
 
-longitud_frase = len(intro_frase)
+longitudFrase = len(introFrase)
 
-print("La longitud de la frase en caracteres es: ", longitud_frase)
+print("La longitud de la frase en caracteres es: ", longitudFrase)
 
-frase_mayu = intro_frase.upper()
+fraseMayu = introFrase.upper()
 
-print("Frase en mayúsculas: ",frase_mayu)
+print("Frase en mayúsculas: ",fraseMayu)
 
-frase_minus = intro_frase.lower()
+fraseMinus = introFrase.lower()
 
-print("Frase en minúsculas: ",frase_minus)
+print("Frase en minúsculas: ",fraseMinus)
 
 
 

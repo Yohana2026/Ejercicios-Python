@@ -6,18 +6,24 @@ print("Precio sudadera: 20.5 euros")
 
 print("Precio gorra: 5.5 euros")
 
-cant_camiseta = int(input("Cuántas camisetas desea: "))
+cantCamiseta = int(input("Cuántas camisetas desea: "))
 
-cant_sudadera = int(input("Cuántas sudaderas desea: "))
+cantSudadera = int(input("Cuántas sudaderas desea: "))
 
-cant_gorra = int(input("Cuántas gorras desea: "))
+cantGorra = int(input("Cuántas gorras desea: "))
 
-total_compra = ((10 * cant_camiseta) + (20.5 * cant_sudadera) + (5.5 * cant_gorra))
+totalCompra = ((10 * cantCamiseta) + (20.5 * cantSudadera) + (5.5 * cantGorra))
 
-print("Total de la compra antes de IVA: ", total_compra)
+print("Total de la compra antes de IVA: ", totalCompra)
 
-total_iva = (total_compra * 0.21) + total_compra 
+totalIva = (totalCompra * 0.21) + totalCompra 
 
-print("Total de compra + IVA: ", total_iva)
+#SUGERENCIA: Aquí yo mostraría solo el valor del IVA cambiando el textpo a mostrs por 'IVA de la compra' 
+#En el próximo print(línea 25) vas a mostrar el valor del iva + precio de compra.
+print("Total de compra + IVA: ", totalIva) 
 
-print("Precio final: ", total_iva)
+print("Precio final: ", totalIva)
+
+#SUGERENCIA: Intentar validar que el valor que entra el cliente sea un número entero, en caso contrario no incluyo el producto en la compra.
+
+#En general muy bien!
