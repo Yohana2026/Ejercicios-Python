@@ -1,14 +1,12 @@
 print("Precio total de un producto")
 
-nombre_producto = input("Nombre del producto: ")
+nombreProducto = input("Nombre del producto: ")
 
-precio_unidad = float(input("Precio por unidad: "))
+precioUnidad = float(input("Precio por unidad: "))
 
-cantidad_comprar = float(input("Cantidad a comprar: "))
+cantidadComprar = float(input("Cantidad a comprar: "))
 
-descuento_porcentaje = float(input("Descuento en porcentaje: "))
+descuentoPorcentaje = float(input("Descuento en porcentaje: "))
 
-iva_porcentaje = float(input("IVA en porcentaje: "))
+ivaPorcentaje = float(input("IVA en porcentaje: "))
 
-
-    

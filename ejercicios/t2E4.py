@@ -12,6 +12,5 @@ print("Email en mayúsculas: ",email_mayu)
 
 email_minus = intro_email.lower()
 
-print("Frase en minúsculas: ",email_minus)
+print("Email en minúsculas: ",email_minus)
 
-#DPM!
