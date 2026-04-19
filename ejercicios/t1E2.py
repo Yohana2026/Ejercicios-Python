@@ -1,29 +1,47 @@
 print ("Canción favorita")
 
-titulo_cancion_fav = input("Título de la canción: ")
+tituloFav = input("Título de la canción: ")
 
 artista = input("Artista: ")
 
 album = input("Álbum: ")
 
-anno_lanzamiento = input("Año de lanzamiento: ")
+annoLanzamiento = input("Año de lanzamiento: ")
 
-duracion_segundos = input("Duración - segundos: ")
+duracionSegundos = input("Duración - segundos: ")
 
 videoclip = input("¿Tiene videoclip? (Verdadero/Falso): ")
-#ERROR: La orden del ejercicio dice que luego de entrar la información se debe mostrar y no muestra nada.
+
+def tieneVideo(videoclip):
+    if videoclip.lower() == "verdadero":
+        return "tiene premios."
+    else:
+        return "no tiene premio."
+    
+print ("Su canción favorita es " + tituloFav + ". El artista es " + artista + ". Tu canción favorita pertenece al álbum " + album + ". Su año de lanzamiento fue " + annoLanzamiento + ". Tu canción favorita tiene una duración en segundos de " + duracionSegundos + ". Tu canción favorita " + tieneVideo(videoclip))
+
+
 
 print ("Canción que menos te gusta")
 
-titulo_cancion_no_fav = input("Título de la canción: ")
+tituloNoFav = input("Título de la canción: ")
 
 artista = input("Artista: ")
 
 album = input("Álbum: ")
 
-anno_lanzamiento = input("Año de lanzamiento: ")
+annoLanzamiento = input("Año de lanzamiento: ")
 
-duracion_segundos = input("Duración - segundos: ")
+duracionSegundos = input("Duración - segundos: ")
 
-videoclip = input("¿Tiene videoclip? (Verdadero/Falso): ")
-#ERROR: La orden del ejercicio dice que luego de entrar la información se debe mostrar y no muestra nada.
+noVideoclip = input("¿Tiene videoclip? (Verdadero/Falso): ")
+
+def noTieneVideo(noVideoclip):
+    if noVideoclip.lower() == "verdadero":
+        return "tiene premios"
+    else:
+        return "no tiene premio."
+    
+    
+print ("Su canción favorita es " + tituloNoFav + ". El artista es " + artista + ". Tu canción favorita pertenece al álbum " + album + ". Su año de lanzamiento fue " + annoLanzamiento + ". Tu canción favorita tiene una duración en segundos de " + duracionSegundos + ". Tu canción favorita " + noTieneVideo(noVideoclip))
+
