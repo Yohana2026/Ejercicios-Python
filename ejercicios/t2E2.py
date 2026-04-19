@@ -14,13 +14,13 @@ cantGorra = int(input("Cuántas gorras desea: "))
 
 totalCompra = ((10 * cantCamiseta) + (20.5 * cantSudadera) + (5.5 * cantGorra))
 
+iva = (totalCompra * 0.21) 
+
+totalIva = totalCompra + iva
+
 print("Total de la compra antes de IVA: ", totalCompra)
 
-totalIva = (totalCompra * 0.21) + totalCompra 
-
-#SUGERENCIA: Aquí yo mostraría solo el valor del IVA cambiando el textpo a mostrs por 'IVA de la compra' 
-#En el próximo print(línea 25) vas a mostrar el valor del iva + precio de compra.
-print("Total de compra + IVA: ", totalIva) 
+print("IVA de la compra", iva) 
 
 print("Precio final: ", totalIva)
 
