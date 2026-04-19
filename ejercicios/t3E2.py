@@ -1,5 +1,8 @@
 print ("Conversor de monedas")
 
+print ("Dólares (1 euro = 1.1 dólares)")
+print("Libras (1 euro = 0.87 libras)")
+
 cantEuro = float(input("Por favor, introduzca el monto total de euros : "))
 
 def converDolar():
