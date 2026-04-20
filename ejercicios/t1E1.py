@@ -19,11 +19,8 @@ def tienePremio(premios):
     else:
         return "no tiene premio"
 
-
-
 print ( "Tu película favorita es " + peliculaFavorita + ". El director es " + directorPelicula + ". Su año de lanzamiento fue " + annoLanzamiento + ". El género de tu película favorita es " + genero + ". Su duración en minutos es " + duracion + ". Tu película favorita " + tienePremio(premios))
 
-#ERROR: La orden del ejercicio dice que luego de entrar la información se debe mostrar y no muestra nada. 
 print ("Information about your favorite movie")
 
 peliculaFavorita = input("Movie title: ")
