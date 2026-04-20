@@ -10,7 +10,7 @@ resta = numA - numB
 
 multiplicacion = numA * numB
 
-division = numA / numB
+division = round(numA / numB,2)
 
 print ("Suma", suma)
 
