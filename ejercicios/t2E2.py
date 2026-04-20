@@ -1,9 +1,6 @@
 print("Tienda de Ropa")
-
 print("Precio camiseta: 10 euros")
-
 print("Precio sudadera: 20.5 euros")
-
 print("Precio gorra: 5.5 euros")
 
 cantCamiseta = int(input("Cuántas camisetas desea: "))
@@ -23,4 +20,6 @@ print("Total de la compra antes de IVA: ", totalCompra)
 print("IVA de la compra", iva) 
 
 print("Precio final: ", totalIva)
+
+
 
