@@ -24,6 +24,3 @@ print("IVA de la compra", iva)
 
 print("Precio final: ", totalIva)
 
-#SUGERENCIA: Intentar validar que el valor que entra el cliente sea un número entero, en caso contrario no incluyo el producto en la compra.
-
-#En general muy bien!

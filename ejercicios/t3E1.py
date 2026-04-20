@@ -10,13 +10,21 @@ descuentoPorcentaje = float(input("Descuento (porcentaje): "))
 
 ivaPorcentaje = float(input("IVA (porcentaje): "))
 
-calculoIva = ivaPorcentaje / 100
+
+def calculoPorcentaje(porciento, valor):
+    return round(porciento/100 * valor,2)
 
 precioTotal = precioUnidad * cantComprar
 
+precioDesc = precioTotal - calculoPorcentaje(descuentoPorcentaje,precioTotal)
 
-precioDesc = (descuentoPorcentaje / 100) * precioTotal
-    
+total = precioDesc + calculoPorcentaje(ivaPorcentaje,precioDesc)
+
+print("Precio total aplicando descuento e IVA: " + str(total))
+
+
+
+
 
 
 
