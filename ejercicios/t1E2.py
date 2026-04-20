@@ -41,7 +41,7 @@ def noTieneVideo(noVideoclip):
         return "tiene premios"
     else:
         return "no tiene premio."
-    
+    #ERROR: Cuidado con los Ctrl+C/Ctrl+V el valor retornado de la función no es correcto
     
 print ("Su canción favorita es " + tituloNoFav + ". El artista es " + artista + ". Tu canción favorita pertenece al álbum " + album + ". Su año de lanzamiento fue " + annoLanzamiento + ". Tu canción favorita tiene una duración en segundos de " + duracionSegundos + ". Tu canción favorita " + noTieneVideo(noVideoclip))
 

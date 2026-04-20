@@ -8,39 +8,19 @@ cantComprar = float(input("Cantidad a comprar: "))
 
 descuentoPorcentaje = float(input("Descuento (porcentaje): "))
 
-ivaPorcentaje = float(input("IVA en porcentaje: "))
+ivaPorcentaje = float(input("IVA (porcentaje): "))
 
-#precio total antes de descuento
-def precioTotal():
-    precioPagar = precioUnidad * cantComprar
-    return precioPagar
+calculoIva = ivaPorcentaje / 100
 
-print("El precio total es " + str(precioTotal()))
-
-#descuento del porcentaje
-def descPorc ():
-    precioDesc = (descuentoPorcentaje / 100) * precioTotal()
-    return precioDesc
-
-print("El descuento es " + str(descPorc()))
-
-#precio total con descuento
-def totalYDesc():
-    total = precioTotal() - descPorc() 
-    return total 
+precioTotal = precioUnidad * cantComprar
 
 
-print("El total aplicando descuento es " + str(totalYDesc()))
- 
-def calculoIva():
-    iva = ivaPorcentaje / 100
-    return iva
+precioDesc = (descuentoPorcentaje / 100) * precioTotal
+    
 
-def totalDescIva():
-    total = (totalYDesc() * calculoIva()) + totalYDesc()
-    return total
 
-print ("Usted debe pagar: " + str(totalDescIva()))
+
+
 
 
 
