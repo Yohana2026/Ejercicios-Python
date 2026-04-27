@@ -6,3 +6,5 @@ for i in range(5):
       print("Pruebe otro color. ")
    else:
       print("Ha obtenido el premio")
+      break
+   

@@ -1,10 +1,10 @@
 print("Calculadora de nota media")
 cantNotas = int(input("¿Cuántas notas desea introducir?: "))
 
-listaNotas = []
+suma = 0
 for i in range(cantNotas):
    valor = int(input("Ingrese nota: "))
-   listaNotas.append(valor)
-   media = sum(listaNotas) / cantNotas
+   suma = suma + valor
+   media = suma/cantNotas
 print("Media " + str(media))
 
